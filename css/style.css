@@ -9,7 +9,7 @@
 }
 
 .bg-fix-gray{
-    background-color: #cecece;
+    background-color: #eae8e8;
 }
 
 .btn{
@@ -85,7 +85,7 @@ header div>a{
     width: 700px;
     text-align: center;
     color: white;
-    margin: 70px 0 30px 0;
+    margin: 70px 0;
 }
 
 .jumbo-container h1{
@@ -97,21 +97,17 @@ header div>a{
     font-size: 20px;
 }
 
-.jumbo-container .btn{  
+.jumbo-container div{  
     display: inline-block;
     color: black;
     margin: 30px 10px;
     font-size: 20px;
 }
 
-.jumbo-container .btn:nth-child(even){
+#afix{
     background-color: black;
     color: white;
 } 
-
-#afix{
-    color:white;
-}
 
 /* sections */
 
@@ -123,24 +119,35 @@ section{
     display: flex;
     margin: auto;
     width: 1000px;
-    height: 400px;
+    /* height: 400px; */
 }
 
 .img-column{
     width: 60%;
-    background-color: lightblue;
+}
+
+main section img{
+    width: 100%;
 }
 
 .txt-column{
     width: 40%; 
-    background-color: pink;
+    padding: 20px;
+}
+
+main section h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+main section p{
+    font-size: 20px;
 }
 
 .large-container{
     width: 1000px;
     height: 700px;
     margin: 0 auto;
-    background-color: green;
 }
 
 /* footer section one */

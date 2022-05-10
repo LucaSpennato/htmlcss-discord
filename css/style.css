@@ -108,6 +108,7 @@ nav a{
 
 .jumbo-container p{
     font-size: 20px;
+    line-height: 30px;
 }
 
 .jumbo-container div{  
@@ -120,7 +121,7 @@ nav a{
 /* sections */
 
 section{
-    padding: 40px;
+    padding: 50px;
 }
 
 .section-container{
@@ -173,59 +174,83 @@ main section h2{
 /* footer section one */
 
 footer section{
-    padding: 10px 40px 40px 40px;
-    background-color: black;
-    margin-bottom: 1px;
+    padding: 60px 40px 0 40px;
+    background-color: #23272A;
 }
 
 .footer-infos-up{
     width: 1000px;
-    height: 500px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
 }
 
 .footer-content-sx{
-    background-color: coral;
     width: 30%;
+}
+
+.footer-content-sx h4{
+    color: #6B84D7;
+    font-size: 30px;
+    margin: 0 0 20px 10px;
+}
+
+.language-selector{
+    color: white;
+    margin: 0 0 20px 10px;
+}
+
+.our-socials i{
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+
+.language-selector img{
+    width: 20px;
 }
 
 .footer-content-dx{
     display: flex;
     justify-content: center;
-    background-color: aquamarine;
     width: 70%;
 }
 
 .fc-dx-infos{
-    border: 2px dashed white;
     flex-basis: 25%;
+}
+
+footer ul li:first-child{
+    color: #6B84D7;
+    font-weight: bold;
+}
+
+footer ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+footer ul li a{
+    color: white;
 }
 
 /* footer section two */
 
 .footer-section-two{
-    display: flex;
-    justify-content: center;
     padding: 30px 40px 0px 40px;
-    background-color: black;
+    background-color: #23272A;
 }
 
 .footer-container-two{
     width: 1000px;
-    padding: 15px 0;
+    margin: 0 auto;
+    padding: 15px 0; 
     display: flex;
     justify-content: space-between;
-    background-color: aqua;
+    border-top: 1px solid #6B84D7;
 }
 
-footer .logo{
-    padding: 5px;
-    background-color: pink;
-}
 
-.footer-button{
-    padding: 5px;
-    background-color: pink;
-}
+

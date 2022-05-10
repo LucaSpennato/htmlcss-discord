@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dashed-border{
+    border: 2px black dashed;
+}
+
+.bg-fix-gray{
+    background-color: #cecece;
+} 
+
+/* header e navigatore */
+
+header{
+    background-color:aqua;
+    padding: 15px 0 5px 0;
+}
+
+.head-container{
+    display: flex;
+    background-color: orange;
+    justify-content: space-between;
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+
+header .logo, header nav, header .login{
+    display: flex;
+}
+
+
+header .logo, header .login{
+    width: 20%;
+    padding: 10px;
+}
+
+header .login{
+    justify-content: flex-end;
+}
+
+header nav{
+    justify-content: center;
+    width: 60%;
+}
+
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+
+/* jumbotron*/
+
+.jumbotron{
+    background-color: darkblue;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.jumbo-container{
+    width: 700px;
+    height: 300px;
+    background-color:plum;
+}
+
+/* sections */
+
+section{
+    padding: 40px;
+}
+
+.section-container{
+    display: flex;
+    margin: auto;
+    width: 1000px;
+    height: 400px;
+}
+
+.img-column{
+    width: 60%;
+    background-color: lightblue;
+}
+
+.txt-column{
+    width: 40%; 
+    background-color: pink;
+}
+
+.large-container{
+    width: 1000px;
+    height: 700px;
+    margin: 0 auto;
+    background-color: green;
+}
+
+/* footer section one */
+
+footer section{
+    padding: 10px 40px 40px 40px;
+    background-color: black;
+    margin-bottom: 1px;
+}
+
+.footer-infos-up{
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content-sx{
+    background-color: coral;
+    width: 30%;
+}
+
+.footer-content-dx{
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    width: 70%;
+}
+
+.fc-dx-infos{
+    border: 2px dashed white;
+    flex-basis: 25%;
+}
+
+/* footer section two */
+
+.footer-section-two{
+    display: flex;
+    justify-content: center;
+    padding: 30px 40px 0px 40px;
+    background-color: black;
+}
+
+.footer-container-two{
+    width: 1000px;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
+
+footer .logo{
+    padding: 5px;
+    background-color: pink;
+}
+
+.footer-button{
+    padding: 5px;
+    background-color: pink;
+}
